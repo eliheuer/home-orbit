@@ -2,7 +2,7 @@
 This is a game made by Eli Heuer at the
 NYU Game Center for the Global Game Jam 2019.
 
-![screenshot](https://rawgithub.com/eliheuer/home-orbit/master/docs/screenshots/screenshot.png)
+![screenshot](https://github.com/eliheuer/home-orbit/blob/master/docs/screenshots/screenshot.png)
 
 ## Installation
 
