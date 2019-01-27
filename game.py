@@ -60,7 +60,7 @@ class Game:
     def draw(self):
         pyxel.cls(0)
         self.draw_bg()
-        self.text_time()
+        #self.text_time()
         self.text_life()
         #self.draw_grid()
         self.draw_rings()
@@ -87,10 +87,10 @@ class Game:
 
     def draw_rings(self):
         pyxel.circb(SCREEN_WIDTH/2, SCREEN_WIDTH/2, 128-16, 1)
-        pyxel.circb(SCREEN_WIDTH/2, SCREEN_WIDTH/2, 128-32, 2)
+        pyxel.circb(SCREEN_WIDTH/2, SCREEN_WIDTH/2, 128-32, 12)
         pyxel.circb(SCREEN_WIDTH/2, SCREEN_WIDTH/2, 128-48, 3)
-        pyxel.circb(SCREEN_WIDTH/2, SCREEN_WIDTH/2, 128-64, 2)
-        pyxel.circb(SCREEN_WIDTH/2, SCREEN_WIDTH/2, 128-80, 1)
+        pyxel.circb(SCREEN_WIDTH/2, SCREEN_WIDTH/2, 128-64, 9)
+        pyxel.circb(SCREEN_WIDTH/2, SCREEN_WIDTH/2, 128-80, 8)
 
     def draw_grid(self):
         for x in range(16):
