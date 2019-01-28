@@ -1,8 +1,8 @@
-# home-orbit
-This is a game made by Eli Heuer at the
+# Orbs
+This is a game made by Eli H at the
 NYU Game Center for the Global Game Jam 2019.
 
-![screenshot](https://github.com/eliheuer/home-orbit/blob/master/docs/screenshots/screenshot.png)
+![screenshot](https://github.com/eliheuer/orbs/blob/master/docs/gameplay.gif)
 
 ## Installation
 
@@ -24,3 +24,6 @@ I: In
 O: Out
 S: Shield
 ```
+## Design Document
+![design doc](https://github.com/eliheuer/orbs/blob/master/docs/designdoc.jpeg)
+
