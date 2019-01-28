@@ -38,7 +38,7 @@ class Game:
     step = 0
     amp = 80
     def __init__(self):
-        pyxel.init(SCREEN_WIDTH, SCREEN_HEIGHT, caption="Home Orbit")
+        pyxel.init(SCREEN_WIDTH, SCREEN_HEIGHT, caption="Orbs")
         pyxel.run(self.update, self.draw)
 
     def update(self):
